@@ -10,9 +10,10 @@ def sumar(a: int, b: int) -> int:
 
     :return: Suma de A y B.
     """
+    
 
-    # ¡Tu código va aquí!
-    pass
+    return a+b
+    
 
 
 def es_par(num: int) -> bool:
@@ -25,5 +26,6 @@ def es_par(num: int) -> bool:
     """
 
     # ¡Tu código va aquí!
-    pass
+    return (num%2)==0
+
 
